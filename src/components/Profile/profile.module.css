@@ -1,0 +1,52 @@
+.profileDescr {
+    background-color: #fff;
+    padding: 25px;
+    text-align: center;
+    color: var(--light-txt-clr);
+}
+
+.username, 
+stat_number {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--bold-txt-clr);
+}
+.stat_name {
+    color: var(--light-txt-clr);
+    text-transform: capitalize;
+}
+.descr_txt {
+    margin-bottom: 8px;
+}
+
+.profileCard {
+    width: 340px;
+    font-weight: 700;
+}
+
+.profileAvatar {
+    border-radius: 50%;
+    margin: 15px auto 40px;
+    width: 40%;
+    background-color: var(--grey-bg-clr);
+    object-fit: cover;
+}
+
+.profileStats {
+    align-items: center;
+    background-color: var(--grey-bg-clr);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-top: solid 0.6px var(--grey-borders-clr);
+}
+.statItem {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+.statItem:not(:first-of-type) {
+    border-left: solid 0.6px var(--grey-borders-clr);
+}

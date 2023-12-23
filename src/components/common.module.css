@@ -1,0 +1,21 @@
+:root {
+    --light-txt-clr: rgb(156, 169, 175);
+    --midgrey-txt-clr: rgb(108, 120, 126);
+    --bold-txt-clr: black;
+    --statistics-header-clr: #000000a1;
+
+    --white-bg-clr: #fff;
+    --grey-bg-clr: #dadde671;
+    --grey-borders-clr:rgba(184, 187, 192, 0.473);
+    --table-header: rgb(103, 195, 231);
+
+}
+.container {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 0 3px 2px var(--grey-bg-clr);
+    margin: 20px auto 0;
+    text-align: center;
+    width: 350px;
+    border-radius: 3px;
+}
